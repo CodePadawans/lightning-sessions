@@ -1,0 +1,38 @@
+# git
+
+## Create a new repository
+
+```bash
+git init
+Initialized empty Git repository in /Users/schneidersjosef/temp/.git/
+```
+
+This command creates a new hidden folder, `.git`. This folder is the repository, which means that all version control 
+happens here. Note that no server is involved here. All happens on your local machine.
+
+## Commit a new file
+
+Place a new file in your directory. Then type in `git status`.
+
+```bash
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	hello.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+```
+
+It says, there is a new file git doesn't know about. To 'introduce' the file to git, type this:
+
+```bash
+git add hello.txt
+```
+This adds `hello.txt` to the *staging area*. This means, when you do a commit, this file will be considered for the commit. Only files which are staged will be part of the new commit.
+
+To do the commit, type in `git commit`. The default editor opens and you can type in your commit message. Your commit message should be ~ 50-70 chars long.
+
