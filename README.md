@@ -3,6 +3,6 @@ lightning-sessions
 
 Topics
 
-[ ] Bash
-[ ] git / GitHub
-[ ] ...
+- [ ] Bash
+- [ ] git / GitHub
+- [ ] CSS Introduction
