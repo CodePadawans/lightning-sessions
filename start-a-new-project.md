@@ -58,11 +58,15 @@ In the description of the PR you describe shortly what you did. Also add a refer
 ### Commit
 Before you create a new commit, make sure that all tests pass and none of them fail.
 
+### Branch naming scheme
+
+`<issue number> - <branch name>`
+
 ### Workflow
 
 The development workflow looks like this:
 
 1. Pick an issue from the list and assign it to you
-2. Create a new branch <issue number> - <branch name>
+2. Create a new branch
 3. Start development on the branch
 4. When you're finished, create a pull request.
