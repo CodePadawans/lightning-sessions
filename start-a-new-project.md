@@ -53,7 +53,7 @@ Pick all requirements which are necessary to build a very basic but working vers
 General Notes
 
 ### Pull Request (PR)
-In the description of the PR you describe shortly what you did. Also add a reference to the GitHub Issue. When the PR was created, ask you pair for review. When your pair approved it, it can be merged. The branch you worked on can be deleted afterwards.
+In the description of the PR you describe shortly what you did. Also add a reference to the GitHub Issue. When the PR was created, ask you pair for review. When your pair approved it, it can be merged. Also make sure you delete the branch you worked on.
 
 ### Commit
 Before you create a new commit, make sure that all tests pass and none of them fail.
@@ -71,6 +71,9 @@ Example:
 The development workflow looks like this:
 
 1. Pick an issue from the list and assign it to you
-2. Create a new branch
-3. Start development on the branch
+2. Create a new branch (Called *feature branch*)
+3. Start development on feature branch
 4. When you're finished, create a pull request.
+5. Review (done by pair)
+6. Merge Pull Request when everything is fine
+
