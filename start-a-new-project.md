@@ -1,17 +1,16 @@
 # How to start new projects (Workflow)
-This describes what steps you need to take to start a new project.
+This describes what steps you need to take to start a new project. This is meant as a guideline.
 
 ## 1. Requirements
 
-Before you start any coding, it starts with requirements. What you do here is writing down all things your new program should do. You write it down in normal text without any code related things. To achieve the best results, you describe the features/requirements from the user's perspective.
-You can write this directly into your project's `README.md` file.
+Before you start any coding, it starts with *requirements*. What you do here is writing down all things your new program should do. You write it down in normal text without any code related things. To achieve the best results, you describe the features/requirements from the user's perspective. You can write this directly into your project's `README.md` file.
 
-### Requirements explanation
-A requirement describes, what you expect the new program to do.
+### What is a requirement?
+A requirement describes what you expect the new program to do.
 
 > "I expect ataru to test my documenation"
 
-This is an requirement, but it is very abstract. 
+This is an requirement, but it is very abstract and not very specific. 
 
 > "I expect ataru to read code examples from markdown files"
 
