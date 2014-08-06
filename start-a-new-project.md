@@ -43,3 +43,26 @@ $ ataru readme.md
 Ran examples: 5 Failed: 1
 ```
 
+## 2. Select features for the first version of your program
+
+When you collected all requirements you need to prioritize which features should be part of the first version. What requirements should be picked?
+Pick all requirements which are necessary to build a very basic but working version.
+
+## 3. Start development
+
+General Notes
+
+### Pull Request (PR)
+In the description of the PR you describe shortly what you did. Also add a reference to the GitHub Issue. When the PR was created, ask you pair for review. When your pair approved it, it can be merged. The branch you worked on can be deleted afterwards.
+
+### Commit
+Before you create a new commit, make sure that all tests pass and none of them fail.
+
+### Workflow
+
+The development workflow looks like this:
+
+1. Pick an issue from the list and assign it to you
+2. Create a new branch <issue number> - <branch name>
+3. Start development on the branch
+4. When you're finished, create a pull request.
