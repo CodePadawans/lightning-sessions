@@ -62,6 +62,10 @@ Before you create a new commit, make sure that all tests pass and none of them f
 
 `<issue number> - <branch name>`
 
+Example:
+
+`5-Extract-Code-Examples-From-File`
+
 ### Workflow
 
 The development workflow looks like this:
