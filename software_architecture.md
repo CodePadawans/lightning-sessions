@@ -12,12 +12,13 @@ The executable in `bin` ties together certain parts of your application. For exa
 There is a class for Markdown traversing, there is a class for executing the code examples and there is also some code which reads a file. 
 All those parts don’t know each other. Only the executable does. The functionalities in `lib` do not know that there is an executable.
 
-
+```
 -----------------------------------------
-| 							bin/ataru 							|
+|               bin/ataru               |
 -----------------------------------------
-| 							lib	   		 							|
+|               lib                     |
 -----------------------------------------
+```
 
 It looks like this, here you have two layers:
 - `bin/ataru`
