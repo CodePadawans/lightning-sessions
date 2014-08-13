@@ -5,7 +5,7 @@ Functionalities get divided into specific parts and they define how functionalit
 one from a different part.
 
 ## Ruby gem
-> A short recap:
+A short recap:
 > We have a `lib` folder which contains all stuff which belongs to the app. There is also a `bin` folder which contains the executable (to use your app from command line). 
 
 The executable in `bin` ties together certain parts of your application. For example ataru:
