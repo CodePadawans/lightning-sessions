@@ -25,3 +25,22 @@ It looks like this, here you have two layers:
 
 It is good design when classes only “can look down” which means, `bin` sees `lib` but `lib` does not see `bin`. 
 If there would be another layer below `lib`, `bin` and `lib` would see it but not vice versa.
+
+
+## Single responsibility
+
+In general, when you write a new class, the class itself shouldn't know anything about the outside world. What does this mean?
+
+See this example:
+
+```ruby
+username = "John"
+
+class Greeter
+  def greet(name)
+    puts "HELLO #{name}"
+  end
+end
+```
+Here you have a `Greeter` class. Its purpose is to greet people. You create a new instance of `Greeter` with `my_greeter = Greeter.new`. And then you can greet people by calling the greet method `my_greeter.greet(username)`. 
+The important part here is, the greet method accepts a parameter `name` and it greets somebody with this name. The `Greeter` class doesn't care from where this name comes. Its only *responsibility* is to greet somebody. The name could come from a database, a file or direct user input from command line. Getting the name is other code's *responsibility*. So you can reuse the `Greeter` class in many ways.
