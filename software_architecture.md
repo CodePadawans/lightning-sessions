@@ -6,6 +6,7 @@ So functionalities get divided into specific parts according to their functional
 ## Ruby gem
 A short recap:
 > We have a `lib` folder which contains all stuff which belongs to the app. There is also a `bin` folder which contains the executable (to use your app from command line). 
+A gem can have an executable, when you want to run it, and if it is supposed to be used as a library, then it doesn't need to have an executable. But, as in Ataru case, it will have an executable and it will be possible to use it as a library. To use a program as a library means to use is programatically.
 
 The executable in `bin` ties together certain parts of your application. For example ataru:
 There is a class for Markdown traversing, there is a class for executing the code examples and there is also some code which reads a file. 
@@ -51,13 +52,13 @@ The view / user interaction layer uses the domain layer. But it does not use the
 
 ### Domain / Logic
 
-This is the "intelligent" and most important part of your application. As an example of a web shop: 
+This is the "intelligent" and most important part of your application. In Ataru case it is running the code samples. As an example of a web shop: 
 The web shop's domain layer processes the orders, manages the shopping card and checks if an article is in stock and so on. 
 The domain layer uses the infrastructure layer to get and store data. But the domain layer does not know anything about the layer above.
 
 ### Infrastructure
 
-In this layer you do file operations, talk with your database or with third party services. The infrastructure layer does not know about any of the other layers above.
+In this layer you do file operations (reading files, writing files; Ataru - reading in markdown files), talk with your database or with third party services. The infrastructure layer does not know about any of the other layers above. (in MarkdownLoader I cannot require any files from view or domain).
 
 ## Single responsibility
 
