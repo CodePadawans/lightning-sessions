@@ -1,8 +1,7 @@
 # Software architecture
 
-To make development and enhancement easier developers try to structure their software in a certain way. 
-Functionalities get divided into specific parts and they define how functionalities from one part can talk to another
-one from a different part.
+To make development and enhancement easier developers try to structure their software in a certain way.
+So functionalities get divided into specific parts according to their functionality.
 
 ## Ruby gem
 A short recap:
