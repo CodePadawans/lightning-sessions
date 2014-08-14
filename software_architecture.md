@@ -48,7 +48,8 @@ When applications get bigger, in general they consist of those three layers:
 The general rule is, user interaction (Getting input from the user and showing stuff to the user) happens only at the top layer. All other layers do not interact directly with the user. This means, no `puts` or `gets` are allowed. User input must be passed from the top layer down to the other layers.
 In context of a GUI application (desktop or web) developers often name this the view layer because it presents the information in a certain way.
 
-The view / user interaction layer uses the domain layer. But it does not use the infrastructure directly.
+The view / user interaction layer uses the domain layer. But it does not use the infrastructure directly.(can't require MarkdownLoader in bin/ataru
+In Ataru view is bin/ataru.
 
 ### Domain / Logic
 
